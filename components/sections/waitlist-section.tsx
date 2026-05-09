@@ -15,7 +15,7 @@ export function WaitlistSection() {
   const [company, setCompany] = useState("");
   const [state, setState] = useState<State>({ kind: "idle" });
 
-  const appUrl = process.env.NEXT_PUBLIC_PLANQ_APP_URL ?? "http://localhost:3000";
+  const appUrl = process.env.NEXT_PUBLIC_PLANQ_APP_URL ?? "https://planq-app.vercel.app";
 
   const onSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
