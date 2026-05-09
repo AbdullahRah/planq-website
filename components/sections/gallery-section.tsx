@@ -12,14 +12,14 @@ export function GallerySection() {
   const lastScrollRef = useRef(0);
 
   const images = [
-    { src: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1600", alt: "Floor plan being marked up" },
-    { src: "https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=1600", alt: "Multi-sheet plan package" },
-    { src: "https://images.unsplash.com/photo-1503387837-b154d5074bd2?q=80&w=1600", alt: "Drafting table with elevations" },
-    { src: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1600", alt: "Code reference on desk" },
-    { src: "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=1600", alt: "Architectural elevation drawing" },
-    { src: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1600", alt: "Permit set under review" },
-    { src: "https://images.unsplash.com/photo-1581094271901-8022df4466f9?q=80&w=1600", alt: "Architect inspecting a sheet" },
-    { src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1600", alt: "Door schedule detail" },
+    { src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600", alt: "Modern residential facade" },
+    { src: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600", alt: "Active construction site" },
+    { src: "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1600", alt: "Modern architectural detail" },
+    { src: "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=1600", alt: "High-rise under construction" },
+    { src: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1600", alt: "Modern building exterior" },
+    { src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600", alt: "Construction crane on site" },
+    { src: "https://images.unsplash.com/photo-1496564203457-11bb12075d90?q=80&w=1600", alt: "High-rise tower" },
+    { src: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=1600", alt: "Architectural geometry" },
   ];
 
   // Calculate section height based on content width

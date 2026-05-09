@@ -60,26 +60,26 @@ function ScrollRevealText({ text }: { text: string }) {
 
 const sideImages = [
   {
-    src: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1000",
-    alt: "Construction document detail",
+    src: "https://images.unsplash.com/photo-1511818966892-d57bbb799cea?q=80&w=1200",
+    alt: "Modern building exterior",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1487014679447-9f8336841d58?q=80&w=1000",
-    alt: "Building elevation drawings",
+    src: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=1200",
+    alt: "Architectural detail",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1581094271901-8022df4466f9?q=80&w=1000",
-    alt: "Architect inspecting plans",
+    src: "https://images.unsplash.com/photo-1496564203457-11bb12075d90?q=80&w=1200",
+    alt: "High-rise building",
     position: "right",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1464082354059-27db6ce50048?q=80&w=1000",
-    alt: "Site plan close-up",
+    src: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1200",
+    alt: "Urban construction",
     position: "right",
     span: 1,
   },
@@ -198,8 +198,8 @@ export function TechnologySection() {
               }}
             >
               <Image
-                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2000"
-                alt="Architect's desk with code reference and plans"
+                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2000"
+                alt="Modern architectural facade"
                 fill
                 className="object-cover"
               />

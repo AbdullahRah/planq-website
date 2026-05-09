@@ -7,26 +7,26 @@ const word = "PLANQ";
 
 const sideImages = [
   {
-    src: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000",
-    alt: "Architectural blueprint detail",
+    src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200",
+    alt: "Modern residential building facade",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1503387837-b154d5074bd2?q=80&w=1000",
-    alt: "Construction drawings on desk",
+    src: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200",
+    alt: "Active construction site",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1448630360428-65456885c650?q=80&w=1000",
-    alt: "Building floor plan",
+    src: "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1200",
+    alt: "Modern architectural detail",
     position: "right",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=1000",
-    alt: "Architectural elevation",
+    src: "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=1200",
+    alt: "High-rise under construction",
     position: "right",
     span: 1,
   },
@@ -126,8 +126,8 @@ export function HeroSection() {
               }}
             >
               <Image
-                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2400"
-                alt="Architectural drawings on a drafting table"
+                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2400"
+                alt="Modern architectural facade"
                 fill
                 className="object-cover"
                 priority
