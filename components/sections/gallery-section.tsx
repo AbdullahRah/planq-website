@@ -12,13 +12,13 @@ export function GallerySection() {
   const lastScrollRef = useRef(0);
 
   const images = [
-    { src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600", alt: "Modern residential facade" },
+    { src: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=1600", alt: "Craftsman home with front porch" },
     { src: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600", alt: "Residential construction site" },
-    { src: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=1600", alt: "Suburban home exterior" },
-    { src: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1600", alt: "Modern home with pool" },
-    { src: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1600", alt: "Modern home exterior" },
-    { src: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1600", alt: "Modern luxury home" },
-    { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1600", alt: "Contemporary home" },
+    { src: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&w=1600", alt: "Suburban brick home with two-car garage" },
+    { src: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1600", alt: "Craftsman home at twilight" },
+    { src: "https://images.unsplash.com/photo-1592595896616-c37162298647?q=80&w=1600", alt: "Suburban white brick home" },
+    { src: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1600", alt: "Cape Cod home with wrap-around porch" },
+    { src: "https://images.unsplash.com/photo-1605146768851-eda79da39897?q=80&w=1600", alt: "Suburban two-storey home with garage" },
     { src: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=1600", alt: "Housing development row" },
   ];
 

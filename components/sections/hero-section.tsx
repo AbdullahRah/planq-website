@@ -7,8 +7,8 @@ const word = "PLANQ";
 
 const sideImages = [
   {
-    src: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=1200",
-    alt: "Suburban home exterior",
+    src: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&w=1200",
+    alt: "Suburban brick home with two-car garage",
     position: "left",
     span: 1,
   },
@@ -19,14 +19,14 @@ const sideImages = [
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200",
-    alt: "Modern residential facade",
+    src: "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=1200",
+    alt: "Suburban craftsman home with front porch",
     position: "right",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200",
-    alt: "Modern home exterior",
+    src: "https://images.unsplash.com/photo-1592595896616-c37162298647?q=80&w=1200",
+    alt: "Suburban white brick home",
     position: "right",
     span: 1,
   },

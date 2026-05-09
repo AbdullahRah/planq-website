@@ -60,20 +60,20 @@ function ScrollRevealText({ text }: { text: string }) {
 
 const sideImages = [
   {
-    src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200",
-    alt: "Modern home exterior",
+    src: "https://images.unsplash.com/photo-1598228723793-52759bba239c?q=80&w=1200",
+    alt: "Suburban brick home",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1605114013100-e0c8b3c75df8?q=80&w=1200",
-    alt: "Housing development",
+    src: "https://images.unsplash.com/photo-1605146768851-eda79da39897?q=80&w=1200",
+    alt: "Suburban two-storey home with garage",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1576941089067-2de3c901e126?q=80&w=1200",
-    alt: "Modern residential home",
+    src: "https://images.unsplash.com/photo-1625602812206-5ec545ca1231?q=80&w=1200",
+    alt: "Craftsman home with front porch",
     position: "right",
     span: 1,
   },

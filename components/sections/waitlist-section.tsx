@@ -70,11 +70,13 @@ export function WaitlistSection() {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="you@firm.com"
                   className="flex-1 rounded-full border border-background/20 bg-background/5 px-5 py-3 text-base text-background placeholder:text-background/40 focus:border-background focus:outline-none"
+                  suppressHydrationWarning
                 />
                 <button
                   type="submit"
                   disabled={state.kind === "submitting"}
                   className="rounded-full bg-background px-6 py-3 text-sm font-medium text-foreground transition-opacity hover:opacity-90 disabled:opacity-40"
+                  suppressHydrationWarning
                 >
                   {state.kind === "submitting" ? "Sending…" : "Get on the list"}
                 </button>
@@ -87,6 +89,7 @@ export function WaitlistSection() {
                   onChange={(e) => setRole(e.target.value)}
                   placeholder="Role (optional) — e.g. Architect, GC, Reviewer"
                   className="flex-1 rounded-full border border-background/20 bg-background/5 px-5 py-3 text-sm text-background placeholder:text-background/40 focus:border-background focus:outline-none"
+                  suppressHydrationWarning
                 />
                 <input
                   type="text"
@@ -94,6 +97,7 @@ export function WaitlistSection() {
                   onChange={(e) => setCompany(e.target.value)}
                   placeholder="Firm (optional)"
                   className="flex-1 rounded-full border border-background/20 bg-background/5 px-5 py-3 text-sm text-background placeholder:text-background/40 focus:border-background focus:outline-none"
+                  suppressHydrationWarning
                 />
               </div>
 
