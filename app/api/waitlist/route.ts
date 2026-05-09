@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabaseAdmin } from "@/lib/supabase-admin";
+import { getSupabaseAdmin } from "@/lib/supabase-admin";
 
 export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -21,7 +22,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "valid email required" }, { status: 400 });
   }
 
-  const { error } = await supabaseAdmin
+  const { error } = await getSupabaseAdmin()
     .from("waitlist")
     .insert({ email, role: role || null, company: company || null, source: "website" });
 

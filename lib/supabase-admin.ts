@@ -1,8 +1,21 @@
-import { createClient } from "@supabase/supabase-js";
+import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 
-const url = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
-const service = process.env.SUPABASE_SERVICE_ROLE_KEY ?? "";
+let cached: SupabaseClient | null = null;
 
-export const supabaseAdmin = createClient(url, service, {
-  auth: { autoRefreshToken: false, persistSession: false },
-});
+export function getSupabaseAdmin(): SupabaseClient {
+  if (cached) return cached;
+
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const service = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+  if (!url || !service) {
+    throw new Error(
+      "Supabase env vars missing: NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are required"
+    );
+  }
+
+  cached = createClient(url, service, {
+    auth: { autoRefreshToken: false, persistSession: false },
+  });
+  return cached;
+}
