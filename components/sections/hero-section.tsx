@@ -7,26 +7,26 @@ const word = "PLANQ";
 
 const sideImages = [
   {
-    src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200",
-    alt: "Modern residential building facade",
+    src: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=1200",
+    alt: "Suburban home exterior",
     position: "left",
     span: 1,
   },
   {
     src: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200",
-    alt: "Active construction site",
+    alt: "Residential construction site",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1200",
-    alt: "Modern architectural detail",
+    src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200",
+    alt: "Modern residential facade",
     position: "right",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=1200",
-    alt: "High-rise under construction",
+    src: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200",
+    alt: "Modern home exterior",
     position: "right",
     span: 1,
   },
@@ -126,8 +126,8 @@ export function HeroSection() {
               }}
             >
               <Image
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2400"
-                alt="Modern architectural facade"
+                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=2400"
+                alt="Modern residential home"
                 fill
                 className="object-cover"
                 priority

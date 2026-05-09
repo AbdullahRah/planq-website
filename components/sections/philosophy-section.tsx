@@ -83,8 +83,8 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600"
-                  alt="Construction site with active build"
+                  src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=1600"
+                  alt="Housing development row"
                   fill
                   className="object-cover"
                 />
@@ -110,8 +110,8 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1600"
-                  alt="Modern building exterior detail"
+                  src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1600"
+                  alt="Modern luxury home exterior"
                   fill
                   className="object-cover"
                 />

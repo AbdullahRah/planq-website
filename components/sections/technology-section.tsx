@@ -60,26 +60,26 @@ function ScrollRevealText({ text }: { text: string }) {
 
 const sideImages = [
   {
-    src: "https://images.unsplash.com/photo-1511818966892-d57bbb799cea?q=80&w=1200",
-    alt: "Modern building exterior",
+    src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200",
+    alt: "Modern home exterior",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=1200",
-    alt: "Architectural detail",
+    src: "https://images.unsplash.com/photo-1605114013100-e0c8b3c75df8?q=80&w=1200",
+    alt: "Housing development",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1496564203457-11bb12075d90?q=80&w=1200",
-    alt: "High-rise building",
+    src: "https://images.unsplash.com/photo-1576941089067-2de3c901e126?q=80&w=1200",
+    alt: "Modern residential home",
     position: "right",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?q=80&w=1200",
-    alt: "Urban construction",
+    src: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=1200",
+    alt: "Row of new homes",
     position: "right",
     span: 1,
   },
@@ -198,8 +198,8 @@ export function TechnologySection() {
               }}
             >
               <Image
-                src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2000"
-                alt="Modern architectural facade"
+                src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=2000"
+                alt="Modern residential home"
                 fill
                 className="object-cover"
               />

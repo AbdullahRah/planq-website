@@ -13,13 +13,13 @@ export function GallerySection() {
 
   const images = [
     { src: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600", alt: "Modern residential facade" },
-    { src: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600", alt: "Active construction site" },
-    { src: "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e?q=80&w=1600", alt: "Modern architectural detail" },
-    { src: "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=1600", alt: "High-rise under construction" },
-    { src: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?q=80&w=1600", alt: "Modern building exterior" },
-    { src: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1600", alt: "Construction crane on site" },
-    { src: "https://images.unsplash.com/photo-1496564203457-11bb12075d90?q=80&w=1600", alt: "High-rise tower" },
-    { src: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=1600", alt: "Architectural geometry" },
+    { src: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1600", alt: "Residential construction site" },
+    { src: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=1600", alt: "Suburban home exterior" },
+    { src: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=1600", alt: "Modern home with pool" },
+    { src: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1600", alt: "Modern home exterior" },
+    { src: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=1600", alt: "Modern luxury home" },
+    { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1600", alt: "Contemporary home" },
+    { src: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=1600", alt: "Housing development row" },
   ];
 
   // Calculate section height based on content width
